@@ -1,0 +1,86 @@
+{
+  "name": ".prisma/client",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "browser": "index-browser.js",
+  "exports": {
+    ".": {
+      "require": {
+        "node": {
+          "default": "./index.js"
+        },
+        "edge-light": {
+          "default": "./edge.js"
+        },
+        "workerd": {
+          "default": "./wasm.js"
+        },
+        "browser": {
+          "default": "./index-browser.js"
+        },
+        "default": "./index.js"
+      },
+      "import": {
+        "node": {
+          "default": "./index.js"
+        },
+        "edge-light": {
+          "default": "./edge.js"
+        },
+        "workerd": {
+          "default": "./wasm.js"
+        },
+        "browser": {
+          "default": "./index-browser.js"
+        },
+        "default": "./index.js"
+      },
+      "default": "./index.js"
+    },
+    "./edge": {
+      "require": {
+        "default": "./edge.js"
+      },
+      "import": {
+        "default": "./edge.js"
+      },
+      "default": "./edge.js"
+    },
+    "./index-browser": {
+      "require": {
+        "default": "./index-browser.js"
+      },
+      "import": {
+        "default": "./index-browser.js"
+      },
+      "default": "./index-browser.js"
+    },
+    "./wasm": {
+      "require": {
+        "default": "./wasm.js"
+      },
+      "import": {
+        "default": "./wasm.js"
+      },
+      "default": "./wasm.js"
+    },
+    "./react-native": {
+      "require": {
+        "default": "./react-native.js"
+      },
+      "import": {
+        "default": "./react-native.js"
+      },
+      "default": "./react-native.js"
+    },
+    "./generator-build": {
+      "require": {
+        "default": "./generator-build.js"
+      },
+      "import": {
+        "default": "./generator-build.js"
+      },
+      "default": "./generator-build.js"
+    }
+  }
+}
